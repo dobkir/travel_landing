@@ -1,5 +1,21 @@
 .container {
-	max-width: 1200px;
-	padding: 0 15px;
 	margin: 0 auto;
+	padding: 0 30px;
+	max-width: 1626px;
+}
+
+.site__container {
+	overflow: hidden;
+}
+
+.flex {
+	display: flex;
+}
+
+.btn-reset {
+	padding: 0;
+
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
 }
