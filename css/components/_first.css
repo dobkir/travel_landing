@@ -4,7 +4,7 @@
 
 	color: var(--white-color);
 
-	background-image: url("../../img/first-bg.webp");
+	background-image: url("./../../img/first-bg.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -38,31 +38,28 @@
 
 	font-size: 80px;
 	font-weight: 700;
-	line-height: 1.1;
+	line-height: 1.05;
 }
 
 .first__descr {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+
 	margin-bottom: 58px;
+	max-height: 10%;
 	max-width: 32%;
 
 	font-family: 'SFCompactText', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 1.2;
+	line-height: 1.25;
+	text-overflow: ellipsis;
+
+	overflow: hidden;
 }
 
 .first__btn {
-	padding: 33px 80px;
-
-	font-size: 12px;
-	font-weight: 800;
-	letter-spacing: 2px;
-	color: inherit;
-	text-transform: uppercase;
-
-	background-color: var(--accent-color);
-	border-radius: 8px;
-
 	position: relative;
 	z-index: 5;
 }
@@ -70,10 +67,6 @@
 .first__bottom {
 	display: flex;
 	align-items: flex-end;
-
-	height: 10%;
-	max-height: 120px;
-	min-height: 120px;
 	width: calc(100% - 60px);
 
 	position: absolute;

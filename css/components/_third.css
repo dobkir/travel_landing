@@ -1,0 +1,146 @@
+.third {
+	background-image: url("./../../img/third-bg.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 1080px;
+	position: relative;
+}
+
+.third__container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.third__stories {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 35.3%;
+	background-color: rgba(17, 31, 42, .8);
+	padding: 126px 133px;
+}
+
+.blog-article {
+	padding-bottom: 105px;
+}
+
+.blog-article__category {
+	display: inline-block;
+	margin-bottom: 15px;
+	padding: 15px 30px;
+
+	font-size: 11px;
+	font-weight: 800;
+	text-align: center;
+	line-height: 1;
+	letter-spacing: 2px;
+	color: var(--white-color);
+	text-transform: uppercase;
+
+	background-color: var(--accent-color);
+	border-radius: 100px;
+}
+
+.blog-article__title {
+	margin-bottom: 18px;
+	max-width: 40%;
+
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.34;
+	color: var(--white-color);
+}
+
+.blog-article__descr {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	margin-bottom: 50px;
+	max-width: 40%;
+
+	font-family: 'SFCompact', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--white-color);
+	text-overflow: ellipsis;
+
+	overflow: hidden;
+}
+
+.blog-article__link {
+	background-color: var(--neptune-color);
+	display: inline-block;
+
+	color: var(--white-color);
+	text-transform: uppercase;
+
+	transition: background-color .3s;
+}
+
+.blog-article__link:hover {
+	background-color: var(--neptune-hover-color);
+	transition: background-color .3s;
+}
+
+.third__title {
+	margin-bottom: 64px;
+
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1.25;
+	color: #fff;
+}
+
+.third-list__article {
+	display: flex;
+	align-items: flex-start;
+	padding: 32px 0;
+
+	border-bottom: 1px solid #4d5a5f;
+}
+
+.third-list__item:last-child .third-list__article {
+	border-bottom: 1px solid transparent;
+}
+
+.third-list__image {
+	flex-shrink: 0;
+	height: 48px;
+	width: 48px;
+
+
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.third-list__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.third-list__text {
+	margin-left: 32px;
+	padding-right: 35px;
+}
+
+.third-list__title {
+	margin-bottom: 5px;
+
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.34px;
+	color: #fff;
+}
+
+.third-list__time {
+	font-family: 'SFProText-Regular', sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.502293);
+}

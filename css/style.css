@@ -7,4 +7,6 @@
 
 /* components imports */
 @import "./components/_header.css";
-@import "./components/_first.css"
+@import "./components/_first.css";
+@import "./components/_second.css";
+@import "./components/_third.css"
