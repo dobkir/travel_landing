@@ -10,7 +10,22 @@
 
 <body>
 	<div class="site__container">
-
+		<div class="menu">
+			<button class="menu__close btn-reset" aria-label="close menu">
+				<span class="menu__close-line"></span>
+				<span class="menu__close-line"></span>
+			</button>
+			<nav class="menu__nav">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#" class="menu__link">Become A Travel</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Featured Stories</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Featured Videos</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Newsletter</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Inspirations</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
 		<header class="header">
 			<div class="container header__container flex">
 
@@ -54,21 +69,39 @@
 						</form>
 						<div class="first__slider main-slider">
 							<div class="swiper-container">
+								<button class="first__slider-btn btn-left btn-reset"></button>
+								<button class="first__slider-btn btn-right btn-reset"></button>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="main-slider__media">
-											<img src="/img/slider-1.webp" alt="Dawn in the mountains">
+											<img src="./img/slider-1.webp" alt="Mountains">
 										</div>
-										<p class="main-slider__text">Incredible mountains</p>
+										<p class="main-slider__text">
+											Incredible mountains
+										</p>
 									</div>
-									<div class="swiper-slide"></div>
-									<div class="swiper-slide"></div>
+									<div class="swiper-slide">
+										<div class="main-slider__media">
+											<button class="main-slider__play btn-reset"></button>
+											<video src="./videos/City_beach_1.mp4" muted playsinline></video>
+										</div>
+										<p class="main-slider__text">
+											Popular beaches
+										</p>
+									</div>
+									<div class="swiper-slide">
+										<div class="main-slider__media">
+											<img src="./img/slider-1.webp" alt="Mountains">
+										</div>
+										<p class="main-slider__text">
+											Incredible mountains
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div><!-- /.first__bottom -->
+						</div><!-- /.first__bottom -->
 
-				</div><!-- /.container -->
+					</div><!-- /.container -->
 			</section><!-- /.first -->
 
 			<section class="second">
@@ -169,9 +202,279 @@
 
 			</section><!-- /.third -->
 
+			<section class="featured-videos">
+				<div class="container featured-videos__container">
+					<h2 class="featured-videos__title section__title section__title--center">Featured Videos</h2>
+					<p class="featured-videos__descr">We invite you to travel with us from the foggy forests of England to the
+						sandy beaches of the sunny Hawaiian Islands.</p>
+				</div>
+				<div class="slider-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<video src="./videos/Castle.mp4" controls>
+								<p>Your browser does not support HTML5 video. Refresh your browser</p>
+							</video>
+							<button class="btn-reset slide-play"></button>
+							<h3 class="slide-title">History of the old manor</h3>
+						</div>
+						<div class="swiper-slide">
+							<video src="./videos/City_beach.mp4" controls>
+								<p>Your browser does not support HTML5 video. Refresh your browser</p>
+							</video>
+							<h3 class="slide-title">The most romantic city beach</h3>
+						</div>
+						<div class="swiper-slide">
+							<video src="./videos/Castle_2.mp4" controls>
+								<p>Your browser does not support HTML5 video. Refresh your browser</p>
+							</video>
+							<h3 class="slide-title">Journey to an oriental tale</h3>
+						</div>
+						<div class="swiper-slide">
+							<video src="./videos/Landscape 1.mp4" controls>
+								<p>Your browser does not support HTML5 video. Refresh your browser</p>
+							</video>
+							<h3 class="slide-title">Backing to the roots</h3>
+						</div>
+						<div class="swiper-slide">
+							<video src="./videos/City_beach_1.mp4" controls>
+								<p>Your browser does not support HTML5 video. Refresh your browser</p>
+							</video>
+							<h3 class="slide-title">Popular beach destinations</h3>
+						</div>
+					</div>
+				</div>
+			</section><!-- /.featured-videos -->
+
+			<section class="newsletter">
+				<div class="container">
+					<div class="newsletter-content">
+						<div class="newsletter__text">
+							<h2 class="newsletter__title section__title">Sign Up Our Newsletter</h2>
+							<p class="newsletter__descr">By subscribing, you will be the first to receive the latest news on our site,
+								links to interesting videos, articles and stories about long journeys and exciting adventures.</p>
+						</div>
+						<form action="#" class="newsletter__form subscribe-form">
+							<input type="hidden" name="admin_email[]" value="p.kirillov2020@gmail.com">
+							<input type="hidden" name="form_subject" value="Заявка с сайта Big Journey">
+							<input type="text" name="name" placeholder="Name" class="subscribe-form__field">
+							<input type="email" name="email" placeholder="Email" data-validate-field="email"
+								class="subscribe-form__field">
+							<input type="tel" name="tel" placeholder="Phone Number" data-validate-field="tel"
+								class="subscribe-form__field">
+							<button class="btn btn-reset subscribe-form__btn">Sign Up Now</button>
+						</form>
+					</div>
+				</div>
+			</section><!-- /.newsletter -->
+
+			<section class="insp">
+				<div class="container">
+					<h2 class="section__title section__title--center insp__heading">Inspirations</h2>
+					<p class="insp__descr">Here we draw inspiration for future travels to the most beautiful places in the world.
+						Share your experiences and get feedback from other users.</p>
+					<ul class="grid insp__list">
+						<li class="insp__item insp__item--big insp__item--1">
+							<div class="insp__text">
+								<a href="#" class="insp__category">Destinations</a>
+								<h3 class="insp__title">
+									<a href="#">Magical Abu Dhabi at night</a>
+								</h3>
+								<ul class="insp__people">
+									<li class="insp__people-item">
+										<img src="./img/ava-1.webp" alt="human-1">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-2.webp" alt="human-2">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-3.webp" alt="human-3">
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="insp__item insp__item--2">
+							<button class="btn-reset insp__play" aria-label="Play video"></button>
+							<div class="insp__text">
+								<a href="#" class="insp__category">Destinations</a>
+								<h3 class="insp__title">
+									<a href="#">The Mystery of the Milky Way</a>
+								</h3>
+								<ul class="insp__people">
+									<li class="insp__people-item">
+										<img src="./img/ava-1.webp" alt="human-1">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-2.webp" alt="human-2">
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="insp__item insp__item--bigheight insp__item--3">
+							<div class="insp__text">
+								<a href="#" class="insp__category">Destinations</a>
+								<h3 class="insp__title">
+									<a href="#">Kilimanjaro. Sleeping giant</a>
+								</h3>
+								<ul class="insp__people">
+									<li class="insp__people-item">
+										<img src="./img/ava-1.webp" alt="human-1">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-2.webp" alt="human-2">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-3.webp" alt="human-3">
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="insp__item insp__item--bigheight insp__item--4">
+							<div class="insp__text">
+								<a href="#" class="insp__category">Destinations</a>
+								<h3 class="insp__title">
+									<a href="#">Antiquities of Istanbul</a>
+								</h3>
+								<ul class="insp__people">
+									<li class="insp__people-item">
+										<img src="./img/ava-1.webp" alt="human-1">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-2.webp" alt="human-2">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-3.webp" alt="human-3">
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="insp__item insp__item--bigheight insp__item--5">
+							<div class="insp__text">
+								<a href="#" class="insp__category">Destinations</a>
+								<h3 class="insp__title">
+									<a href="#">Highland Scotland. Land of legends</a>
+								</h3>
+								<ul class="insp__people">
+									<li class="insp__people-item">
+										<img src="./img/ava-1.webp" alt="human-1">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-2.webp" alt="human-2">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-3.webp" alt="human-3">
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="insp__item insp__item--6">
+							<button class="btn-reset insp__play" aria-label="Play video"></button>
+							<div class="insp__text">
+								<a href="#" class="insp__category">Destinations</a>
+								<h3 class="insp__title">
+									<a href="#">Dark secrets of the old castle</a>
+								</h3>
+								<ul class="insp__people">
+									<li class="insp__people-item">
+										<img src="./img/ava-1.webp" alt="human-1">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-2.webp" alt="human-2">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-3.webp" alt="human-3">
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="insp__item insp__item--big insp__item--7">
+							<div class="insp__text">
+								<a href="#" class="insp__category">Destinations</a>
+								<h3 class="insp__title">
+									<a href="#">Best Vacation Ideas</a>
+								</h3>
+								<ul class="insp__people">
+									<li class="insp__people-item">
+										<img src="./img/ava-1.webp" alt="human-1">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-2.webp" alt="human-2">
+									</li>
+									<li class="insp__people-item">
+										<img src="./img/ava-3.webp" alt="human-3">
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section><!-- /.inspirations -->
+
 		</main><!-- /.main -->
 
+		<footer class="footer">
+			<div class="container footer__container flex">
+				<nav class="footer__column">
+					<h2 class="footer__title">Company</h2>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#" class="footer__link">About</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Press</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Security</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Driver Centre</a></li>
+					</ul>
+				</nav>
+				<nav class="footer__column">
+					<h2 class="footer__title">Information</h2>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#" class="footer__link">Our Story</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Recipes</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Nutrition</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Resources</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Newsletter</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+					</ul>
+				</nav>
+				<nav class="footer__column">
+					<h2 class="footer__title">Information</h2>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#" class="footer__link">Custormer service</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Recommend a restaurant</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Signup a restaurant</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Jobs</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Press</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Terms of use</a></li>
+					</ul>
+				</nav>
+				<div class="footer__column">
+					<h2 class="footer__title">Subscribe Now</h2>
+					<form action="#" class="subs-form">
+						<input type="hidden" name="admin_email[]" value="maxgraph23@gmail.com">
+						<input type="hidden" name="form_subject" value="Заявка с сайта Mitravel">
+						<input type="email" name="email" class="subs-form__field" data-validate-field="email"
+							placeholder="Your email">
+						<button class="btn btn-reset subs-form__btn">Subscribe now</button>
+					</form>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container bottom-container flex">
+					<small class="footer__copy">© 2021 Pavel Kirillov. Designed by Pavel Kirillo for Big Journey. All rights
+						reserved.</small>
+					<ul class="footer__links">
+						<li class="footer__links-item"><a href="#" class="footer__link">Terms of Service</a></li>
+						<li class="footer__links-item"><a href="#" class="footer__link">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
 	</div><!-- /.site__container -->
+
+	<script src="libs/swiper.min.js"></script>
+	<script src="libs/inputmask.min.js"></script>
+	<script src="libs/just-validate.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
