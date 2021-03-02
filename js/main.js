@@ -27,6 +27,13 @@ let swiperSlider2 = new Swiper(swiper2, {
 	},
 });
 
+swiperSlider1.on('transitionEnd', function () {
+	let videos = document.querySelectorAll('.swiper-slide video');
+	videos.forEach((el) => {
+		el.pause();
+		el.currentTime = 0;
+	});
+});
 
 swiperSlider2.on('transitionEnd', function () {
 	let videos = document.querySelectorAll('.first__slider video');
