@@ -3,6 +3,20 @@
 	padding: 100px 0;
 	width: 100%;
 
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+
 	overflow-x: hidden;
 }
 
@@ -10,6 +24,8 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	align-items: center;
+	margin: 0 auto;
 	min-height: 550px;
 	width: 890px;
 
@@ -56,13 +72,13 @@
 
 .slide-title {
 	font-size: 0;
-
+	text-align: center;
 	transition: transform .4s;
-	transform: translateY(300px);
+	transform: translateY(100px);
 }
 
 .swiper-slide-active .slide-title {
-	padding: 15px 0 15px 35px;
+	padding: 10px;
 
 	font-weight: 700;
 	font-size: 28px;
@@ -73,6 +89,21 @@
 	transition: transform .4s;
 	transform: translateY(0);
 }
+
+.slider-pagination {
+	margin: 80px auto 0;
+	height: 30px;
+}
+
+.swiper-pagination-bullet {
+	width: 18px;
+	height: 18px;
+}
+
+.swiper-pagination-bullet-active {
+	--swiper-pagination-color: var(--neptune-hover-color);
+}
+
 
 .featured-videos {
 	padding-top: 150px;
@@ -108,7 +139,12 @@
 .swiper-slide video {
 	display: block;
 	width: 100%;
-	height: 100%;
+	height: 90%;
+	min-height: 200px;
 	object-fit: cover;
+
+	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: 1;
 }

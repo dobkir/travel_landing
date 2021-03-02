@@ -10,11 +10,17 @@ let swiperSlider1 = new Swiper(swiper1, {
 	slidesPerView: 'auto',
 	loop: true,
 	spaceBetween: 105,
+	grabCursor: true,
+	pagination: {
+		el: '.slider-pagination',
+		type: 'bullets',
+		clickable: true,
+		dynamicBullets: true,
+	},
 });
 
 let swiperSlider2 = new Swiper(swiper2, {
 	centeredSlides: true,
-	slidesPerView: 1,
 	loop: true,
 	spaceBetween: 10,
 	fadeEffect: {
@@ -27,6 +33,9 @@ let swiperSlider2 = new Swiper(swiper2, {
 	},
 });
 
+//=======================Video
+
+//=======================End of video
 // swiperSlider1.on('transitionEnd', function () {
 // 	let videos = document.querySelectorAll('.swiper-slide video');
 // 	videos.forEach((el) => {

@@ -93,6 +93,13 @@
 	position: absolute;
 	left: 40px;
 	top: 40px;
+
+	transition: background-image .3s;
+}
+
+.insp__play:hover {
+	background-image: url("../../img/video-play_hover.svg");
+	transition: background-image .3s;
 }
 
 .insp__people {

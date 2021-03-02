@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-	<meta name="robots" content="index, follow">
-	<meta name="google" content="notranslate">
-	<meta name="description" content="Big Journey is a website for lovers of longest travels and unforgettable adventures.
+<base>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<meta name="google" content="notranslate">
+<meta name="description" content="Big Journey is a website for lovers of longest travels and unforgettable adventures.
 		Here you can learn about incredible adventures around the world from members of our community.
 		You can also become a member of the travel community.">
-	<link rel="icon" href="./favicon.ico" type="image/x-icon">
-	<link rel="icon" type="image/png" href="./img/Earth_32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="./img/Earth_16x16.png" sizes="16x16">
-	<link href="./img/Earth_96x96.png" rel="shortcut icon" type="image/x-icon">
-	<link href="./img/Earth_96x96.png" rel="icon" type="image/x-icon">
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/Earth_57x57.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/Earth_72x72.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/Earth_114x114.png">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/Earth_144x144.png">
-	<title>Big Journey</title>
-	<link rel="stylesheet" href="css/style.css">
+<base href="/" />
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" href="./img/Earth_32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="./img/Earth_16x16.png" sizes="16x16">
+<link href="./img/Earth_96x96.png" rel="shortcut icon" type="image/x-icon">
+<link href="./img/Earth_96x96.png" rel="icon" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/Earth_57x57.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/Earth_72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/Earth_114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/Earth_144x144.png">
+<title>Big Journey</title>
+<link rel="stylesheet" href="./libs/swiper-bundle.min.css" type="text/css" />
+<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -84,35 +86,29 @@
 						</form>
 						<div class="first__slider main-slider">
 							<div class="swiper-container">
-								<button class="first__slider-btn btn-left btn-reset"></button>
-								<button class="first__slider-btn btn-right btn-reset"></button>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="main-slider__media">
 											<img src="./img/slider-1.webp" alt="Mountains">
 										</div>
 										<p class="main-slider__text">
+											<button class="first__slider-btn btn-left btn-reset"></button>
 											Incredible mountains
+											<button class="first__slider-btn btn-right btn-reset"></button>
 										</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="main-slider__media">
 											<button class="main-slider__play btn-reset"></button>
-											<video muted playsinline width="501px" height="268">
+											<video muted playsinline width="501px" height="200">
 												<source src="./videos/City_beach_1.mp4" type="video/mp4">
-												<source src="./videos/City_beach_1.webm" type="video/webm">
+												<!-- <source src="./videos/City_beach_1.webm" type="video/webm"> -->
 											</video>
 										</div>
 										<p class="main-slider__text">
+											<button class="first__slider-btn btn-left btn-reset"></button>
 											Popular beaches
-										</p>
-									</div>
-									<div class="swiper-slide">
-										<div class="main-slider__media">
-											<img src="./img/slider-1.webp" alt="Mountains">
-										</div>
-										<p class="main-slider__text">
-											Incredible mountains
+											<button class="first__slider-btn btn-right btn-reset"></button>
 										</p>
 									</div>
 								</div>
@@ -269,8 +265,11 @@
 							</video>
 							<h3 class="slide-title">Popular beach destinations</h3>
 						</div>
+					</div><!-- /.swiper-wrapper -->
+					<div class="slider-pagination-wrapper">
+						<div class="slider-pagination"></div>
 					</div>
-				</div>
+				</div><!-- /.slider-container -->
 			</section><!-- /.featured-videos -->
 
 			<section class="newsletter">
@@ -499,7 +498,7 @@
 
 	</div><!-- /.site__container -->
 
-	<script src="libs/swiper.min.js"></script>
+	<script src="libs/swiper-bundle.min.js"></script>
 	<script src="libs/inputmask.min.js"></script>
 	<script src="libs/just-validate.min.js"></script>
 	<script src="js/main.js"></script>

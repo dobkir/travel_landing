@@ -43,6 +43,13 @@
 
 	background-color: var(--accent-color);
 	border-radius: 100px;
+
+	transition: background-color .3s;
+}
+
+.blog-article__category:hover {
+	background-color: var(--accent-hover-color);
+	transition: background-color .3s;
 }
 
 .blog-article__title {
