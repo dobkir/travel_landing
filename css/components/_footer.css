@@ -58,7 +58,7 @@
 	width: 100%;
 	height: 64px;
 
-	background-image: url("/img/user.svg");
+	background-image: url("../../img/user.svg");
 	background-position: calc(100% - 31px) center;
 	background-repeat: no-repeat;
 
