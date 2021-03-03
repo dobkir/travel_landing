@@ -1,5 +1,4 @@
 .first {
-	height: 100vh;
 	min-height: 660px;
 
 	color: var(--white-color);
@@ -34,14 +33,16 @@
 	transition: background-color .3s;
 }
 
-.first__link:hover {
+.first__link:hover,
+.first__link:focus {
 	background-color: rgba(28, 46, 61, .8);
+	outline: none;
 	transition: background-color .3s;
 }
 
 .first__title {
 	margin-bottom: 40px;
-	max-width: 40%;
+	width: 40%;
 
 	font-size: 80px;
 	font-weight: 700;
@@ -73,7 +74,8 @@
 	z-index: 5;
 }
 
-.first__btn:hover {
+.first__btn:hover,
+.first__btn:focus {
 	background-color: var(--accent-hover-color);
 	transition: background-color .3s;
 }
@@ -127,6 +129,11 @@
 	transform: translateY(-50%);
 }
 
+.search-form__button:hover,
+.search-form__button:focus {
+	transform: scale(1.5) translateX(-20%) translateY(-20%);
+}
+
 .main-slider {
 	font-size: 0;
 	line-height: 1;
@@ -137,18 +144,11 @@
 	overflow: hidden;
 }
 
-.main-slider__media {
-	height: 280px;
-	overflow: hidden;
-}
-
-.main-slider__media img {
-	height: 280px;
-	overflow: hidden;
-}
-
+.main-slider__media,
+.main-slider__media img,
 .main-slider__video {
-	height: 280px;
+	height: 300px;
+	width: auto;
 	overflow: hidden;
 }
 
@@ -178,19 +178,25 @@
 	background-repeat: no-repeat;
 }
 
-.btn-right {
-	margin-left: auto;
-	margin-right: 20px;
-	background-image: url("../../img/arrow-right.svg");
-	outline: transparent;
-}
-
 .btn-left {
 	margin-left: 20px;
 	margin-right: auto;
 
 	background-image: url("../../img/arrow-left.svg");
-	outline: transparent;
+}
+
+.btn-right {
+	margin-left: auto;
+	margin-right: 20px;
+
+	background-image: url("../../img/arrow-right.svg");
+}
+
+.btn-left:hover,
+.btn-right:hover,
+.btn-left:focus,
+.btn-right:focus {
+	transform: scale(0.8);
 }
 
 .main-slider__play {
@@ -209,50 +215,4 @@
 	z-index: 12;
 
 	transform: translate(-50%, -50%);
-}
-
-@media (max-height: 1079px) {
-	.first__container {
-		padding: 120px 30px;
-	}
-}
-
-@media (max-height: 880px) {
-	.first__container {
-		padding: 100px 30px;
-	}
-
-	.first__link {
-		margin-bottom: 30px;
-	}
-
-	.first__title {
-		font-size: 75px;
-		line-height: 65px;
-	}
-}
-
-@media (max-height: 780px) {
-	.search-form {
-		height: 80px;
-	}
-
-	.main-slider__text {
-		height: 80px;
-	}
-
-	.first__title {
-		font-size: 60px;
-		line-height: 65px;
-		margin-bottom: 20px;
-	}
-
-	.first__descr {
-		font-size: 12px;
-		margin-bottom: 30px;
-	}
-
-	.first__btn {
-		padding: 25px 40px;
-	}
 }

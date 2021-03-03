@@ -8,11 +8,11 @@
 /* components imports */
 @import "./components/_header.css";
 @import "./components/_first.css";
-@import "./components/_second.css";
-@import "./components/_third.css";
+@import "./components/_second-stories.css";
+@import "./components/_third-blog.css";
 @import "./components/_slider.css";
-@import "./components/_fourth.css";
-@import "./components/_fifth.css";
+@import "./components/_fourth-newsletter.css";
+@import "./components/_fifth-inspirations.css";
 @import "./components/_footer.css";
 
 @import "_media.css";

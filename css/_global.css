@@ -43,3 +43,7 @@ a {
 img {
 	max-width: 100%;
 }
+
+input {
+	outline-color: var(--neptune-color);
+}

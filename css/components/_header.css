@@ -1,8 +1,6 @@
 .header {
 	width: 100%;
 
-	/* background-color: rgba(0, 0, 0, .7); */
-
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -35,8 +33,10 @@
 	transition: opacity .3s;
 }
 
-.social__link:hover {
-	opacity: .8;
+.social__link:hover,
+.social__link:focus {
+	opacity: .6;
+	outline: none;
 }
 
 .social__link--fb {

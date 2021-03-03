@@ -17,12 +17,15 @@ let swiperSlider1 = new Swiper(swiper1, {
 		clickable: true,
 		dynamicBullets: true,
 	},
+	navigation: {
+		nextEl: '.slide-arrow-left',
+		prevEl: '.slide-arrow-right',
+	},
 });
 
 let swiperSlider2 = new Swiper(swiper2, {
 	centeredSlides: true,
 	loop: true,
-	spaceBetween: 10,
 	fadeEffect: {
 		crossFade: true
 	},
