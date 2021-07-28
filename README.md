@@ -94,19 +94,19 @@ Project Link: [https://github.com/dobkir/travel_landing](https://github.com/dobk
 <!-- Pages -->
 ## Screenshoots collection
 ## First page
-(https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerFirstPage.gif)
+![First page][https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerFirstPage.gif]
 
 ## Second page
-(https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerSecondPage.gif)
+![Second page][https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerSecondPage.gif]
 
 ## Third page
-(https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerThirdPage.gif)
+![Third page][https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerThirdPage.gif]
 
 ## Fourth page
-(https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerFourthPage.gif)
+![Fourth page][https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerFourthPage.gif]
 
 ## Fifth page
-(https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerFifthPage.gif)
+![Fifth page][https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerFifthPage.gif]
 
 ## Sixth page
-(https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerSixthPage.gif)
+![Sixth page][https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerSixthPage.gif]
