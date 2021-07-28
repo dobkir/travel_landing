@@ -19,6 +19,8 @@ all this and share their trips and experiences.
 
 The site has a responsive design and is adapted for devices with different screen sizes.
 
+Pure template on html5/css3. It was created without a task runner, without a framework.
+
 Swiper Slider library is the easy way to create and manage sliders on a website. It uses in this project.<br> 
 Link to the Swiper official docs: [https://swiperjs.com/](https://swiperjs.com/)<br>
 
@@ -43,8 +45,8 @@ Link to the Swiper official docs: [https://swiperjs.com/](https://swiperjs.com/)
 ![Swiper Slider](https://img.shields.io/badge/Swiper-=SLIDER=-a587ff?logo=Swiper&logoColor=a587ff&style=for-the-badge)
 
 - mail.php<br>
-Without real sending data, just as a template-example of POST method realization.
-![mail.php](mail.php)
+Without real sending data, just as a template-example of POST method realization<br>
+[mail.php](mail.php)
 
 - IDE<br>
 💻 VS Code
@@ -72,19 +74,19 @@ Project Link: [https://github.com/dobkir/travel_landing](https://github.com/dobk
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/dobkir/reactjs-modal-template.svg?style=for-the-badge
-[contributors-url]: https://github.com/dobkir/reactjs-modal-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/dobkir/reactjs-modal-template.svg?style=for-the-badge
-[forks-url]: https://github.com/dobkir/reactjs-modal-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/dobkir/reactjs-modal-template.svg?style=for-the-badge
-[stars-url]: https://github.com/dobkir/reactjs-modal-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/dobkir/reactjs-modal-template.svg?style=for-the-badge
-[issues-url]: https://github.com/dobkir/reactjs-modal-template/issues
-[license-shield]: https://img.shields.io/github/license/dobkir/reactjs-modal-template.svg?style=for-the-badge
-[license-url]: https://github.com/dobkir/reactjs-modal-template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/dobkir/travel_landing.svg?style=for-the-badge
+[contributors-url]: https://github.com/dobkir/travel_landing/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dobkir/travel_landing.svg?style=for-the-badge
+[forks-url]: https://github.com/dobkir/travel_landing/network/members
+[stars-shield]: https://img.shields.io/github/stars/dobkir/travel_landing.svg?style=for-the-badge
+[stars-url]: https://github.com/dobkir/travel_landing/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dobkir/travel_landing.svg?style=for-the-badge
+[issues-url]: https://github.com/dobkir/travel_landing/issues
+[license-shield]: https://img.shields.io/github/license/dobkir/travel_landing.svg?style=for-the-badge
+[license-url]: https://github.com/dobkir/travel_landing/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/pavel-kirillov-dobkir
-[repo-size-shield]: https://img.shields.io/github/repo-size/dobkir/reactjs-modal-template.svg?style=for-the-badge
-[languages-shield]: https://img.shields.io/github/languages/count/dobkir/reactjs-modal-template.svg?style=for-the-badge
-[main-language-shield]: https://img.shields.io/github/languages/top/dobkir/reactjs-modal-template.svg?style=for-the-badge&color=563d7c
+[repo-size-shield]: https://img.shields.io/github/repo-size/dobkir/travel_landing.svg?style=for-the-badge
+[languages-shield]: https://img.shields.io/github/languages/count/dobkir/travel_landing.svg?style=for-the-badge
+[main-language-shield]: https://img.shields.io/github/languages/top/dobkir/travel_landing.svg?style=for-the-badge&color=563d7c
 [product-screenshot]: https://github.com/dobkir/trailers/blob/master/big_journey_trailer/trailerBigJourney.gif
