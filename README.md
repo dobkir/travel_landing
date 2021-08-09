@@ -41,15 +41,16 @@ Link to the Swiper official docs: [https://swiperjs.com/](https://swiperjs.com/)
 ![JavaScript](https://img.shields.io/badge/JavaScript-4.4%25-f1e05a?logo=JavaScript&logoColor=f1e05a&style=for-the-badge)<br>
 ![PHP](https://img.shields.io/badge/PHP-2.5%25-4F5D95?logo=PHP&logoColor=4F5D95&style=for-the-badge)
 
-- Swiper Library<br>
-![Swiper Slider](https://img.shields.io/badge/Swiper-=SLIDER=-a587ff?logo=Swiper&logoColor=a587ff&style=for-the-badge)
-
-- mail.php<br>
+- Through:<br>
+Swiper Library<br>
+![Swiper Slider](https://img.shields.io/badge/Swiper-=SLIDER=-a587ff?logo=Swiper&logoColor=a587ff&style=for-the-badge)<br>
+mail.php<br>
 Without real sending data, just as a template-example of POST method realization<br>
 [mail.php](mail.php)
 
 - IDE<br>
-💻 VS Code
+![VSCode](https://img.icons8.com/color/48/000000/visual-studio-code-2019.png)<br>
+ [VSCode](https://code.visualstudio.com/)
 
 <!-- LICENSE -->
 ## License
@@ -66,7 +67,7 @@ Project Link: [https://github.com/dobkir/travel_landing](https://github.com/dobk
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Muan Emoji](https://emoji.muan.co/)
+- [ICONS8](https://icons8.com/)
 - [Img Shields](https://shields.io)
 - [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Pages](https://pages.github.com)
