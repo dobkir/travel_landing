@@ -44,9 +44,8 @@ Link to the Swiper official docs: [https://swiperjs.com/](https://swiperjs.com/)
 - Through:<br>
 Swiper Library<br>
 ![Swiper Slider](https://img.shields.io/badge/Swiper-=SLIDER=-a587ff?logo=Swiper&logoColor=a587ff&style=for-the-badge)<br>
-mail.php<br>
-Without real sending data, just as a template-example of POST method realization<br>
-[mail.php](mail.php)
+[mail.php](mail.php)<br>
+Without real sending data, just as a template-example of POST method realization
 
 - IDE<br>
 ![VSCode](https://img.icons8.com/color/48/000000/visual-studio-code-2019.png)<br>
