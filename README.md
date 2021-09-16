@@ -43,7 +43,7 @@ Link to the Swiper official docs: [https://swiperjs.com/](https://swiperjs.com/)
 
 - Through:<br>
 Swiper Library<br>
-![Swiper Slider](https://img.shields.io/badge/Swiper-=SLIDER=-a587ff?logo=Swiper&logoColor=a587ff&style=for-the-badge)<br>
+[![Swiper Slider](https://img.shields.io/badge/Swiper-=SLIDER=-a587ff?logo=Swiper&logoColor=a587ff&style=for-the-badge)](https://swiperjs.com/)<br>
 [mail.php](mail.php)<br>
 Without real sending data, just as a template-example of POST method realization
 
